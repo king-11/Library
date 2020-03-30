@@ -1,0 +1,31 @@
+.h1,
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+    color: #db7317;
+}
+
+.jumbotron>p {
+    color: #db7317;
+}
+
+.card {
+    margin-bottom: 1rem
+}
+
+.jumbotron {
+    background-color: #11119d;
+}
+
+form>button {
+    margin: 1rem auto;
+}
+
+form>label {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.form-check {
+    margin-top: 1rem;
+}
