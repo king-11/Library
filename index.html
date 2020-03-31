@@ -17,9 +17,8 @@
 <body>
     <div class="jumbotron" style="color: #fca311;">
         <h1 style="font-family: 'Almendra SC', serif;">Library</h1>
-        <p style="font-family: 'Abril Fatface', cursive; text-align: center;">Nullam id dolor id nibh ultricies vehicula
-            ut id elit. Cras
-            justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+        <p style="font-family: 'Abril Fatface', cursive; text-align: center;">Help me out in setting up an amazing set of books that we can spend our leisure time with 
+        . </p>
     </div>
     <div class="container" id="books">
         <div><a class="btn btn-dark text-monospace text-capitalize text-center" data-toggle="collapse"
@@ -29,11 +28,15 @@
                 <form id="bookForm">
                     <label>Name of Book</label><input class="form-control" type="text" id="name" required>
                     <label>Author</label><input class="form-control" type="text" id="author" required>
-                    <label>Number of Pages</label><input class="form-control" type="number" id="pages">
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" id="formCheck-1">
-                        <label class="form-check-label" for="formCheck-1">Read</label>
-                    </div>
+                    <label>Genre</label><select class="form-control" id="pages">
+                        <option>Fiction</option>
+                        <option>Fantasy</option>
+                        <option>Manga</option>
+                        <option>Humor and Comedy</option>
+                        <option>Mystery</option>
+                        <option>Biography</option>
+                    </select>
+                    <label>Recommender</label><input class="form-control" type="text" id="formCheck-1" required>
                     <button class="btn btn-primary" type="submit">Submit</button>
                 </form>
             </div>

@@ -2,11 +2,11 @@
 h1 {
     text-align: center;
     font-size: xxx-large;
-    color: #db7317;
+    color: #ffffff;
 }
 
 .jumbotron>p {
-    color: #db7317;
+    color: #ffffff;
 }
 
 .card {
@@ -14,7 +14,7 @@ h1 {
 }
 
 .jumbotron {
-    background-color: #11119d;
+    background: none;
 }
 
 form>button {
@@ -28,4 +28,13 @@ form>label {
 
 .form-check {
     margin-top: 1rem;
+}
+
+
+body{
+    background: url(./shutterstock_1068141515.jpg) center;
+}
+
+input, select{
+    max-width: 75%;
 }
