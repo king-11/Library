@@ -33,9 +33,17 @@ form>label {
 
 
 body{
-    background: url(./shutterstock_1068141515.jpg) center ;
+    background: url(./shutterstock_1068141515.jpg) bottom;
 }
 
 .form-control{
         max-width: 75%;
+}
+
+.collapse.show {
+    margin-top: 1rem;
+}
+li>button {
+    width: 100%;
+    margin: 0.25rem 0;
 }

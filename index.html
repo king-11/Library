@@ -37,7 +37,7 @@
                         <option>Biography</option>
                         <option>Fantasy</option>
                         <option>Manga</option>
-                        <option>Humor and Comedy</option>
+                        <option>Comedy</option>
                         <option>Philosophy</option>
                         <option>Poetry</option>
                         <option>Spirituality</option>
@@ -48,19 +48,56 @@
                 </form>
             </div>
         </div>
-        <div id="Fiction">
 
-        </div>
-        <div id='Non-Ficton'></div>
-        <div id='Mystery'></div>
-        <div id='Self Help'></div>
-        <div id='Biography'></div>
-        <div id='Fantasy'></div>
-        <div id='Manga'></div>
-        <div id='Humor and Comedy'></div>
-        <div id='Philosophy'></div>
-        <div id='Poetry'></div>
-        <div id='Spirituality'></div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+            <a class="navbar-brand" href="#"><b style="color: azure;">Genre</b></a><button data-toggle="collapse"
+                    class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Fiction' aria-expanded='false' aria-controls='Fiction'>Fiction</button></li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Non-Fiction' aria-expanded='false' aria-controls='Non-Fiction'>Non-Fiction</button></li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Mystery' aria-expanded='false' aria-controls='Mystery'>Mystery</button></li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Self Help' aria-expanded='false' aria-controls='Self Help'>Self Help</button>
+                        </li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Biography' aria-expanded='false' aria-controls='Biography'>Biography</button>
+                        </li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Fantasy' aria-expanded='false' aria-controls='Fantasy'>Fantasy</button></li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Manga' aria-expanded='false' aria-controls='Manga'>Manga</button></li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Comedy' aria-expanded='false' aria-controls='Humor and Comedy'>Comedy</button>
+                        </li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Philosophy' aria-expanded='false' aria-controls='Philosophy'>Philosophy</button>
+                        </li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Poetry' aria-expanded='false' aria-controls='Poetry'>Poetry</button></li>
+                        <li class="nav-item" role="presentation"><button class='btn btn-dark' data-toggle='collapse'
+                                href='#Spirituality' aria-expanded='false'
+                                aria-controls='Spirituality'>Spirituality</button></li>
+                    </ul>
+                </div>
+            
+        </nav>
+
+        <div class="collapse show" id="Fiction"></div>
+        <div class="collapse" id='Non-Ficton'></div>
+        <div class="collapse" id='Mystery'></div>
+        <div class="collapse" id='Self Help'></div>
+        <div class="collapse" id='Biography'></div>
+        <div class="collapse" id='Fantasy'></div>
+        <div class="collapse" id='Manga'></div>
+        <div class="collapse" id='Humor and Comedy'></div>
+        <div class="collapse" id='Philosophy'></div>
+        <div class="collapse" id='Poetry'></div>
+        <div class="collapse" id='Spirituality'></div>
 
     </div>
     <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase.js"></script>
