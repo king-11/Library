@@ -24,6 +24,7 @@ form>button {
 form>label {
     margin-top: 1rem;
     margin-bottom: 0;
+    color: #ffffff;
 }
 
 .form-check {
@@ -35,6 +36,6 @@ body{
     background: url(./shutterstock_1068141515.jpg) center;
 }
 
-input, select{
-    max-width: 75%;
+.form-control{
+        max-width: 75%;
 }
