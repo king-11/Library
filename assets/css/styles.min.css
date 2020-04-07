@@ -1,60 +1,60 @@
 .h1,
 h1 {
-    text-align: center;
-    font-size: xxx-large;
-    color: #ffffff;
+  text-align: center;
+  font-size: xxx-large;
+  color: #ffffff;
 }
 
-.jumbotron>p {
-    color: #ffffff;
+.jumbotron > p {
+  color: #ffffff;
 }
 
 .card {
-    margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .jumbotron {
-    background: none;
+  background: none;
 }
 
-form>button {
-    margin: 1rem auto;
+form > button {
+  margin: 1rem auto;
 }
 
-form>label {
-    margin-top: 1rem;
-    margin-bottom: 0;
-    color: #ffffff;
+form > label {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #ffffff;
 }
 
 .form-check {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-
-body{
-    background: burlywood;
+body {
+  background: burlywood;
 }
 
-.form-control{
-        max-width: 75%;
+.form-control {
+  max-width: 75%;
 }
 
 .collapse.show {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
-li>button {
-    width: 100%;
-    margin: 0.25rem 0;
+
+li > button {
+  width: 100%;
+  margin: 0.25rem 0;
 }
 
 img {
-    max-height: 150px;
-    border-radius: 0.25rem;
-    width: 60%;
+  max-height: 150px;
+  border-radius: 0.25rem;
+  width: 60%;
 }
 
 .img {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
