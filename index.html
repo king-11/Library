@@ -32,6 +32,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css"
     />
     <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
   </head>
 
   <body>
@@ -373,5 +374,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="assets/js/script.min.js"></script>
+
+    <script>
+      window.sr = ScrollReveal();
+      sr.reveal(".jumbotron", {
+        duration: 2000,
+        origin: "bottom",
+        distance: "100px",
+      });
+      sr.reveal(".container", {
+        duration: 2000,
+        delay: 1500,
+        origin: "bottom",
+        viewFactor: 0.2,
+      });
+    </script>
   </body>
 </html>

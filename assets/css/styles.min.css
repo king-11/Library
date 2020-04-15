@@ -2,11 +2,11 @@
 h1 {
   text-align: center;
   font-size: xxx-large;
-  color: #ffffff;
+  color: #000;
 }
 
 .jumbotron > p {
-  color: #ffffff;
+  color: #000;
 }
 
 .card {
@@ -57,4 +57,12 @@ img {
 .img {
   display: block;
   text-align: center;
+}
+
+.jumbotron {
+  background-color: #f1f1f1;
+}
+
+.collapse {
+  transition: all 1000ms;
 }
