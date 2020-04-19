@@ -71,9 +71,3 @@ img {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-
-@media screen and (min-width: 720px) {
-  .grid .btn {
-    max-width: 350px;
-  }
-}
