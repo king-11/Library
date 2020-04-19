@@ -66,3 +66,8 @@ img {
 .collapse {
   transition: all 1000ms;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
