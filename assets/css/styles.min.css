@@ -72,6 +72,11 @@ img {
   grid-template-columns: 2fr 1fr;
 }
 
+.alert {
+  display: none;
+  transition: all 1s ease-out;
+}
+
 @media screen and (min-width: 720px) {
   .grid .btn {
     max-width: 350px;
