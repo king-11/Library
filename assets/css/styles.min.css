@@ -231,3 +231,7 @@ ul {
   max-width: 55px;
   margin-right: 3px;
 }
+
+.btn-info {
+  z-index: 1000;
+}
