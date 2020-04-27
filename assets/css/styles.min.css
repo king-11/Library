@@ -197,6 +197,10 @@ div > a.btn:active {
   display: none;
 }
 
+.indexing{
+  z-index:10;
+}
+
 #contri {
   position: fixed;
   right: 0px;
@@ -209,7 +213,7 @@ div > a.btn:active {
   display: flex;
   align-items: center;
   justify-content: start;
-  color: #fff;
+  color: white;
 }
 
 ul {
