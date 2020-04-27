@@ -191,45 +191,14 @@ div > a.btn:active {
   }
 }
 
-@media (min-width:800px){
-  .card-body{
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 2rem 5rem;
-  }
-  
-}
-
-@media(max-width:800px){
-  .card-body{
-    flex: 1 1 auto;
-    min-height: 1px;
-    padding: 2rem 3rem;
-  }
-}
-
 #large,
 #small,
 #medium {
   display: none;
 }
 
-.carousel-control-next, .carousel-control-prev {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 7%;
-  color: #fff;
-  text-align: center;
-  opacity: 1;
-  transition: opacity .15s ease;
+.indexing{
+  z-index:10;
 }
 
 #contri {
