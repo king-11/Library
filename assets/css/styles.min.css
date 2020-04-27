@@ -244,7 +244,7 @@ div > a.btn:active {
   display: flex;
   align-items: center;
   justify-content: start;
-  color: #fff;
+  color: white;
 }
 
 ul {
