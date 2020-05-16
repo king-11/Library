@@ -1,12 +1,20 @@
 .h1,
 h1 {
+  position: relative;
   text-align: center;
-  font-size: xxx-large;
-  color: #000;
+  font-size: 100px;
+  color:grey;
+  right: 200px;
 }
 
+.site_logo
+{
+  float: left;
+}
 .jumbotron > p {
-  color: #000;
+  color:#0c0;
+  font-size: 17px;
+  text-align: center;
 }
 
 .card {
@@ -64,7 +72,7 @@ img {
 }
 
 .jumbotron {
-  background-color: #ffffffcf;
+  background-color:#000;
 }
 
 .collapse {
