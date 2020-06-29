@@ -89,10 +89,6 @@ img {
   align-items: center;
 }
 
-.grid-items .container {
-  max-width: 85%;
-}
-
 .alert {
   display: none;
   opacity: 0;
@@ -201,6 +197,10 @@ div > a.btn:active {
 @media screen and (max-width: 500px) {
   .grid .btn {
     max-width: 350px;
+  }
+
+  .grid-items .container {
+    max-width: 80%;
   }
 
   #small {
