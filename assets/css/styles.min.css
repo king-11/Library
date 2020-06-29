@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .h1,
 h1 {
   text-align: center;
@@ -74,6 +80,13 @@ img {
 .grid {
   display: grid;
   grid-template-columns: 2fr 1fr;
+}
+
+.grid-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: center;
+  align-items: center;
 }
 
 .alert {
@@ -176,7 +189,7 @@ div > a.btn:active {
     max-width: 350px;
   }
 
-  #large {
+  #medium {
     display: block !important;
   }
 }
@@ -184,6 +197,10 @@ div > a.btn:active {
 @media screen and (max-width: 500px) {
   .grid .btn {
     max-width: 350px;
+  }
+
+  .grid-items .container {
+    max-width: 80%;
   }
 
   #small {
@@ -197,8 +214,8 @@ div > a.btn:active {
   display: none;
 }
 
-.indexing{
-  z-index:10;
+.indexing {
+  z-index: 10;
 }
 
 #contri {
